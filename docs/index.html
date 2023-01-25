@@ -3,7 +3,7 @@
 <!-- Remember, each license repository is for a specific version of a license. -->
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Example License v1</title>
+<title>The Public Domain Pledge</title>
 <link rel="stylesheet" href="/assets/entry-v1.css">
 <link rel="stylesheet" href="/assets/page-v1.css">
 <style>
@@ -13,7 +13,7 @@
 <body>
 <script>
 //Set the path to the license file. This is used to copy the text into this webpage, and to create a download link.
-window.license_file_path = '/example-license-v1/uploads/Example License v1.txt';
+window.license_file_path = '/the-public-domain-pledge/uploads/The Public Domain Pledge.txt';
 </script>
 
 <script src="/assets/page-v1.js"></script>
@@ -37,26 +37,25 @@ file_contents.send();
 <div itemscope itemtype="https://schema.org/CreativeWork">
 <dl>
 <dt>Name:</dt>
-<dd itemprop="name">Example License v1</dd>
+<dd itemprop="name">The Public Domain Pledge</dd>
 <div class='break'></div>
 <dt>Authors:</dt>
-<dd itemprop="author">Re-usable License Collaboration</dd>
+<dd itemprop="author"></dd>
 <div class='break'></div>
 <dt>Publication Date:</dt> 
-<dd><meta itemprop="datePublished" content="2022-03-26">March 26, 2022</dd>
+<dd><meta itemprop="datePublished" content="2023-01-09">January 9, 2023</dd>
 <div class='break'></div>
 <dt>Official Source:</dt>
-<dd><a class='default_links' href="https://reusablelicensecollaboration.github.io/example-license-v1/" itemprop="url">https://reusablelicensecollaboration.github.io/example-license-v1/</a></dd>
+<dd><a class='default_links' href="https://pledge.pub/" itemprop="url">https://pledge.pub/</a></dd>
 <div class='break'></div>
 </dl>
-<p itemprop="description">Example License v1 is not a license. It is used as example text in the R.L.C. license repo example repository.</p>
+<p itemprop="description">The Public Domain Pledge is dedication for putting works into the Public Domain. Unlike most Public Domain dedications it applies to all "publications" by an author, not just a specific work.</p>
 </div>
 
 <h3>Type</h3>
 <ul>
 <!-- Valid types are: Public Domain Dedication, Permissive License, Reciprocal License (aka Copyleft, ShareALike), Opensource License, "Ethical" License, Source Available License (aka Read-only License, Verbatim License), Free Software License, Crayon License. A License may meet the criteria of multiple types.-->
-<li class='type_true'>Source Available License</li>
-<li class='type_true'>Crayon License</li>
+<li class='type_true'>Public Domain Dedication</li>
 </ul>
 
 <h3>Features</h3>
@@ -69,9 +68,9 @@ file_contents.send();
 
 <h3>Permissions</h3>
 <ul>
-<li class='permissions_false'>Copy</li>
-<li class='permissions_false'>Modify</li>
-<li class='permissions_false'>Share</li>
+<li class='permissions_true'>Copy</li>
+<li class='permissions_true'>Modify</li>
+<li class='permissions_true'>Share</li>
 </ul>
 
 <h2>Document</h2>
@@ -104,7 +103,7 @@ function show_hide_meta() {
 </script>
 <input type="text" id="inline_clipboard" value="">
 <ul id='meta_content' style='display:none'>
-<li class='meta_list'>Published March 26, 2022. Last updated May 14, 2022.</li>
+<li class='meta_list'>Published January 25, 2023. Last updated January 25, 2023.</li>
 <li class='meta_list'>Contributers: James Daniel Marrs Ritchey.</li>
 <li class='meta_list'>Citations: 
 	 <ul class='meta_sub_list'>
@@ -118,10 +117,10 @@ function show_hide_meta() {
       </li>
     </ul>
     <script>
-	document.getElementById("apa_in_text").innerHTML = '(Ritchey, 2022)';
-	document.getElementById("apa_references").innerHTML = 'Ritchey, J. (2022). Example License v1. https://' + window.location.hostname + '/example-license-v1.';
-	document.getElementById("custom_in_text").innerHTML = '(https://' + window.location.hostname + '/example-license-v1)';
-	document.getElementById("custom_references").innerHTML = 'R.L.C. - Example License v1 (https://' + window.location.hostname + '/example-license-v1).';
+	document.getElementById("apa_in_text").innerHTML = '(Ritchey, 2023)';
+	document.getElementById("apa_references").innerHTML = 'Ritchey, J. (2023). The Public Domain Pledge. https://' + window.location.hostname + '/the-public-domain-pledge.';
+	document.getElementById("custom_in_text").innerHTML = '(https://' + window.location.hostname + '/the-public-domain-pledge)';
+	document.getElementById("custom_references").innerHTML = 'R.L.C. - The Public Domain Pledge (https://' + window.location.hostname + '/the-public-domain-pledge).';
 	function select_text_v1(element) {
 		document.getElementById('inline_clipboard').value = element.innerHTML;
 		var selectable_text = document.getElementsByClassName('selectable_text');
